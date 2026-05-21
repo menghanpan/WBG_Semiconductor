@@ -1,21 +1,11 @@
 Keywords,Degree
 logic gates,1
-performance,0.866666667
-silicon carbide,0.844444444
-algan/gan hemts,0.822222222
-current collapse,0.777777778
-schottky diodes,0.755555556
-electron mobility transistors,0.733333333
-wide band gap semiconductors,0.733333333
-power electronics,0.733333333
-compact model,0.711111111
-electron mobility,0.666666667
-transient analysis,0.666666667
-integrated circuit modeling,0.666666667
-mosfet,0.644444444
-high-electron-mobility transistor (hemt),0.644444444
-gan,0.644444444
-dc,0.622222222
-simulation,0.6
-substrate,0.6
-efficiency,0.6
+performance,0.769230769
+voltage,0.615384615
+gallium nitride,0.538461538
+breakdown voltage,0.538461538
+design,0.384615385
+power,0.307692308
+silicon carbide,0.307692308
+simulation,0.230769231
+wide band gap semiconductors,0.153846154
