@@ -20,7 +20,7 @@
 
 导出参数：时间窗2020-2025，语言English，文献类别Article/Review/Proceedings Paper
 
-原始文件：date/raw（1）
+原始文件：date/download(1)~(6)
 
 数据量：3000篇
 
