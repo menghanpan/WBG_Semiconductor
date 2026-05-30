@@ -8,7 +8,7 @@
 
 组员：邹星云   处理相关代码 | src/data  |
 
-组员：潘梦涵   图谱构建与计量分析，完成数据分析并输出结果报告。  | data/processed/outputs/docs/   |
+组员：潘梦涵   图谱构建与计量分析，完成数据分析并输出结果报告。  | data/src/outputs/docs/   |
 
 # 检索式
 v0.2
