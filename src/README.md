@@ -72,35 +72,6 @@ python keyword_stats.py
 
 ---
 
-## 目录结构
-
-运行脚本后会生成以下目录结构：
-
-```
-project/
-├── data/
-│   ├── raw/                      # 原始分批导出文件
-│   └── processed/                # 合并/清洗后的数据
-├── results/
-│   ├── statistics/               # 统计表格
-│   │   ├── yearly_publications.csv
-│   │   ├── top_keywords.csv
-│   │   ├── top_authors.csv
-│   │   ├── top_institutions.csv
-│   │   ├── network_metrics_template.csv
-│   │   ├── burst_keywords.csv
-│   │   ├── node_centrality_analysis.csv
-│   │   └── timeline_analysis.csv
-│   ├── networks/                 # CiteSpace 导出的图谱
-│   ├── citespace_export/         # CiteSpace 导出的原始数据
-│   └── interpretation/           # 图表解读文字
-│       └── interpretation_draft.md
-├── src/                          # 本目录
-└── docs/                         # 文档
-```
-
----
-
 ## 与 CiteSpace 的分工
 
 | 任务 | CiteSpace | Python 脚本 |
@@ -110,7 +81,6 @@ project/
 | 突现检测 | ✅ | ❌ |
 | 多文件合并 | ❌ | ✅ |
 | 数据完整性验证 | ❌ | ✅ |
-| 年度发文量统计 | ⚠️ 需手动 | ✅ 自动化 |
 | 高频关键词排序 | ⚠️ 需导出后处理 | ✅ 直接输出表格 |
 | 作者/机构发文量 | ⚠️ 需导出后处理 | ✅ 直接输出表格 |
 | 网络指标汇总 | ⚠️ 分散在各界面 | ✅ 标准化表格 |
