@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Web of Science 文献数据清洗脚本
+Web of Science 文献数据清洗脚本 
 用途：对 WoS 导出的全记录文本进行去重、同义词合并、机构标准化、作者消歧
 输入：合并后的 WoS 全记录 .txt 文件（Full Record and Cited References）
 输出：CiteSpace 可直接导入的 .txt 文件
