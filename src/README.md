@@ -1,3 +1,4 @@
+[src_README_final(1).md](https://github.com/user-attachments/files/28425691/src_README_final.1.md)
 # src/ 目录说明
 
 本目录包含用于 CiteSpace 文献计量分析的 Python 辅助脚本，补充 CiteSpace 原生功能的不足，提供数据预处理、批量统计和结果后处理能力。
@@ -69,6 +70,35 @@ python keyword_stats.py
 
 - Python 3.7+
 - 仅使用标准库，无需额外安装
+
+---
+
+## 目录结构
+
+运行脚本后会生成以下目录结构：
+
+```
+project/
+├── data/
+│   ├── raw/                      # 原始分批导出文件
+│   └── processed/                # 合并/清洗后的数据
+├── results/
+│   ├── statistics/               # 统计表格
+│   │   ├── yearly_publications.csv
+│   │   ├── top_keywords.csv
+│   │   ├── top_authors.csv
+│   │   ├── top_institutions.csv
+│   │   ├── network_metrics_template.csv
+│   │   ├── burst_keywords.csv
+│   │   ├── node_centrality_analysis.csv
+│   │   └── timeline_analysis.csv
+│   ├── networks/                 # CiteSpace 导出的图谱
+│   ├── citespace_export/         # CiteSpace 导出的原始数据
+│   └── interpretation/           # 图表解读文字
+│       └── interpretation_draft.md
+├── src/                          # 本目录
+└── docs/                         # 文档
+```
 
 ---
 
