@@ -1,0 +1,11 @@
+排名,论文标题,第一作者,年份,被引量,中介中心性,突现强度,Sigma
+1,Nonsegmented Turn-On Switching Transient Analytical Model for Fast-Switching GaN HEMT,"Li, X",2025,2002,0.0161,0.2027,1.121
+2,High-Gain Gated Lateral Power Bipolar Junction Transistor,"Wang, J",2021,1299,0.0686,0.1252,1.2927
+3,Physical Understanding on Short-Circuit Failure for Cascode GaN HEMTs,"Song, XT",2025,1093,0.0671,0.1191,1.2711
+4,Tuning Avalanche Path in Vertical GaN JFETs By Gate Driver Design,"Liu, JC",2022,2268,0.0033,0.1703,1.0208
+5,Effects of Electron Irradiation and Thermal Cycling on Electrical Properties of SiC MOSFET,"Chen, X",2025,1874,0.0092,0.1891,1.0643
+6,AlN/GaN/InGaN Coupling-Channel HEMTs for Improved gm and Gain Linearity,"Lu, H",2021,1966,0.0081,0.1809,1.0541
+7,Effect of Gate Structure on the Performances of Lateral AlGaN/GaN Avalanche-Transistor,"Dai, Y",2025,1366,0.0414,0.1392,1.2044
+8,Study of AlGaN/GaN Vertical Superjunction HEMT for Improvement of Breakdown Voltage,"Zhang, M",2021,1719,0.0255,0.1421,1.1307
+9,(Ultra)Wide-Bandgap Vertical Power FinFETs,"Zhang, YH",2020,2018,0.0033,0.1754,1.0214
+10,A Simple and Physically Insightful Model for Generalized Switching Prediction of SiC MOSFET and GaN HEMT,"Broeck, CH",2025,1928,0,0.2003,1
