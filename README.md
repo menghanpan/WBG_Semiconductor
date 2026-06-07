@@ -138,12 +138,12 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 | **表1** | Top 10 里程碑论文 | 领域奠基性文献 | ≥200字，含四项指标解读、主题分布、关键文献分析 |
 
 ### 宽禁带半导体功率器件领域文献计量分析
-【总数据分析】 ./ outputs/宽禁带半导体功率器件领域文献计量分析报告.md
+【总数据分析】 [宽禁带半导体功率器件领域文献计量分析报告.md](outputs/宽禁带半导体功率器件领域文献计量分析报告.md)
 
 基于 Web of Science 数据库（2020–2026年，共277篇文献），使用 CiteSpace v.6.4.R2 进行知识图谱分析。本报告涵盖四大维度：知识基础、趋势演化、核心团队与里程碑论文。
 
 ## 图1：文献共被引网络 / 关键词聚类
-【文献共被引图】 ./ outputs/fig1_cocitation_cluster.png
+【文献共被引图】 outputs/fig1_cocitation_cluster.png
 【关键词聚类图】 ./ outputs/fig1_keywords_clusters_network.png
 
 **研究问题**：领域的知识基础是什么？
