@@ -143,8 +143,8 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 基于 Web of Science 数据库（2020–2026年，共277篇文献），使用 CiteSpace v.6.4.R2 进行知识图谱分析。本报告涵盖四大维度：知识基础、趋势演化、核心团队与里程碑论文。
 
 ## 图1：文献共被引网络 / 关键词聚类
-【文献共被引图】 outputs/fig1_cocitation_cluster.png
-【关键词聚类图】 ./ outputs/fig1_keywords_clusters_network.png
+ [文献共被引图](outputs/fig1_cocitation_cluster.png)
+ [关键词聚类图](outputs/fig1_keywords_clusters_network.png)
 
 **研究问题**：领域的知识基础是什么？
 
@@ -156,8 +156,8 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 - 网络密度 0.0232，最大连通分量占 90%，领域处于发展期但知识体系相对统一。
 
 ## 图2：时间线图 / 突现图
-【关键词突现检测图】 ./outputs/fig2_burst_detection.png
-【关键词时间线变化趋势图】 ./ outputs/fig2_timeline.png
+[关键词突现检测图](outputs/fig2_burst_detection.png)
+[关键词时间线变化趋势图]( outputs/fig2_timeline.png)
 
 **研究问题**：研究趋势如何演化？
 
@@ -172,7 +172,7 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 - 衰退主题：`planar gate`（平面栅）被沟槽栅替代；`material growth` 进入成熟稳定期。
 
 ## 图3：作者合作网络 / 机构地图
-【作者合作网络图】 ./ outputs/fig3_author_network.png
+.[作者合作网络图]( outputs/fig3_author_network.png)
 
 **研究问题**：谁在推动这个领域？
 
@@ -192,7 +192,7 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 **网络结构**：呈"多中心、强合作"格局，中、美、韩三国团队形成紧密合作网络，欧洲团队相对独立。
 
 ## 表1：Top 10 里程碑论文
-【T10 milestone候选论文列表】 ./ outputs/table1_top10_milestone.csv
+.[T10 milestone候选论文列表](outputs/table1_top10_milestone.csv)
 
 **指标说明**：
 
