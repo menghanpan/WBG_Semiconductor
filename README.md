@@ -56,18 +56,19 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 
 ## 1. 数据来源
 - **数据库**：Web of Science Core Collection
-- **检索日期**：2026年X月X日（请填写实际日期）
+- **检索日期**：2026年5月27日（请填写实际日期）
 - **导出格式**：Plain Text (.txt)，Full Record and Cited References
 
 ## 2. 检索策略
 
 | 项目 | 内容 |
 |:---|:---|
-| 检索式 | `TS=("third generation semiconductor" OR "wide band gap semiconductor" OR "silicon carbide" OR SiC OR "gallium nitride" OR GaN)` |
-| 时间范围 | 2020–2026 |
+| 检索式 | TS=( “third generation semiconductor” OR “wide-bandgap semiconductor” OR “silicon carbide” OR SiC OR “gallium nitride” OR GaN )
+          AND TS=(“MOSFET” OR “HEMT” OR “SBD” OR “transistor” OR “diode”)
+| 时间范围 | 2020–2025 |
 | 语言 | English |
 | 文献类型 | Article, Review, Proceedings Paper |
-| 检索命中量 | 4,369 篇 |
+| 检索命中量 | 3000 篇 |
 
 ## 3. 数据导出字段（Full Record）
 
@@ -85,7 +86,7 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 
 | 指标 | 数值 |
 |:---|:---|
-| 时间跨度 | 2020–2026 |
+| 时间跨度 | 2020–2025 |
 | 文献总量 | 2,014 篇 |
 | 文献类型 | Article, Review |
 | 语言 | English |
@@ -97,7 +98,7 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 数据获取 (Web of Science)
     ↓
 数据清洗 (Python 脚本: wos_data_cleaning.py)
-    ├── DOI 去重: 4,369 → 3,000 篇
+    ├── DOI 去重: 3000 → 2994 篇
     ├── 同义词合并
     ├── 机构名称标准化
     └── 作者名消歧
