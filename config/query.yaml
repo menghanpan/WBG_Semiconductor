@@ -5,14 +5,9 @@ AND PY=(2021 OR 2022 OR 2023 OR 2024 OR 2025)
 AND DT=("Article" OR "Review Article" OR "Proceeding Paper" OR "Early Access")
 AND LA=English
 
-# 检索式v0.2
-
-TS=("third generation semiconductor" OR
-"wide band gap semiconductor" OR
-"silicon carbide" OR
-SiC OR
-"gallium nitride" OR
-GaN )
-AND PY=2015-2025
-AND LA=English
+v0.2 
+TS=( “third generation semiconductor” OR “wide-bandgap semiconductor” OR “silicon carbide” OR SiC OR “gallium nitride” OR GaN ) 
+AND TS=(“MOSFET” OR “HEMT” OR “SBD” OR “transistor” OR “diode”) 
+AND PY=2020-2025 
+AND LA=English 
 AND DT=("Article" OR "Review" OR "Proceedings Paper")
