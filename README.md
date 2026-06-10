@@ -56,7 +56,7 @@ AND DT=("Article" OR "Review" OR "Proceedings Paper")
 
 ## 1. 数据来源
 - **数据库**：Web of Science Core Collection
-- **检索日期**：2026年5月27日（请填写实际日期）
+- **检索日期**：2026年5月27日
 - **导出格式**：Plain Text (.txt)，Full Record and Cited References
 
 ## 2. 检索策略
